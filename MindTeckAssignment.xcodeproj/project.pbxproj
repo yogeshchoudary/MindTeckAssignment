@@ -13,6 +13,8 @@
 		7BA07B202716D23A009FB76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA07B1E2716D23A009FB76D /* Main.storyboard */; };
 		7BA07B222716D23C009FB76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA07B212716D23C009FB76D /* Assets.xcassets */; };
 		7BA07B252716D23C009FB76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA07B232716D23C009FB76D /* LaunchScreen.storyboard */; };
+		7BA07B342716F21E009FB76D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07B322716F21E009FB76D /* CustomTableViewCell.swift */; };
+		7BA07B352716F21E009FB76D /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BA07B332716F21E009FB76D /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7BA07B212716D23C009FB76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA07B242716D23C009FB76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BA07B262716D23C009FB76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA07B322716F21E009FB76D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7BA07B332716F21E009FB76D /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		7BA07B172716D23A009FB76D /* MindTeckAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				7BA07B312716F1ED009FB76D /* CustomViews */,
 				7BA07B182716D23A009FB76D /* AppDelegate.swift */,
 				7BA07B1A2716D23A009FB76D /* SceneDelegate.swift */,
 				7BA07B1C2716D23A009FB76D /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				7BA07B262716D23C009FB76D /* Info.plist */,
 			);
 			path = MindTeckAssignment;
+			sourceTree = "<group>";
+		};
+		7BA07B312716F1ED009FB76D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7BA07B322716F21E009FB76D /* CustomTableViewCell.swift */,
+				7BA07B332716F21E009FB76D /* CustomTableViewCell.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			files = (
 				7BA07B252716D23C009FB76D /* LaunchScreen.storyboard in Resources */,
 				7BA07B222716D23C009FB76D /* Assets.xcassets in Resources */,
+				7BA07B352716F21E009FB76D /* CustomTableViewCell.xib in Resources */,
 				7BA07B202716D23A009FB76D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				7BA07B1D2716D23A009FB76D /* ViewController.swift in Sources */,
 				7BA07B192716D23A009FB76D /* AppDelegate.swift in Sources */,
+				7BA07B342716F21E009FB76D /* CustomTableViewCell.swift in Sources */,
 				7BA07B1B2716D23A009FB76D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
