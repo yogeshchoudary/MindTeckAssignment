@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         carouselPageControl.currentPageIndicatorTintColor = .darkGray // custom color
         carouselPageControl.pageIndicatorTintColor = .darkGray.withAlphaComponent(0.3)
        
-        self.tableViewHeight.constant = CGFloat(self.arrayOfFlagNames.count * 120)
+        self.tableViewHeight.constant = (self.tableView.frame.height * (self.view.frame.height/896)) + self.carouselScrollView.frame.height + self.carouselPageControl.frame.height - 16
         
        
         filteredData = arrayOfFlagNames
